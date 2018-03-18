@@ -1,10 +1,9 @@
 // ==UserScript==
 // @name TweetdeckQLC
 // @namespace TweetdeckQLC
-// @version 1.0
+// @version 1.0.1
 // @description Automatically put the tweet link on the clipboard when you click "copy link"
 // @author Favna
-// @license https://www.gnu.org/licenses/gpl-3.0.en.html
 // @icon https://raw.githubusercontent.com/Favna/TweetdeckQLC/master/assets/icon.png
 // @homepage https://github.com/Favna/TweetdeckQLC
 // @twitterURL https://twitter.com/Favna_
