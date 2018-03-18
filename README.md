@@ -10,6 +10,23 @@
 
 [Click here to download](https://github.com/Favna/TweetdeckQLC/raw/master/TweetdeckQLC.user.js)
 
+If you do not have a userscript manager I personally recommend ViolentMonkey, follow one of the URLs below to get it for your browser:
+
+[ViolentMonkey for Chrome](https://chrome.google.com/webstore/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag?hl=en "ViolentMonkey for Chrome")|
+:--|
+
+[ViolentMonkey for Firefox Quantum](https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/ "ViolentMonkey for Firefox Quantum")|
+:--|
+
+[ViolentMonkey for Opera](https://addons.opera.com/en/extensions/details/violent-monkey/ "ViolentMonkey for Opera")|
+:--|
+
+[TamperMonkey for MS Edge](https://tampermonkey.net/?browser=edge "TamperMonkey for MS Edge")|
+:--|
+
+[TamperMonkey for Safari](https://tampermonkey.net/?ext=dhdg&browser=safari "TamperMonkey for Safari")|
+:--|
+
 ## How it works
 
 As soon as you load the tweetdeck page an event listener gets bound to the entire page which checks if the action menu for a tweet is open. As soon as an action menu is opened the link to that tweet is put onto your clipboard for sharing. No need to press the "copy link to tweet" button ever again.
