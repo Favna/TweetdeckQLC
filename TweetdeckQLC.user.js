@@ -2,7 +2,7 @@
 // @name TweetdeckQLC
 // @namespace TweetdeckQLC
 // @description Automatically put the tweet link on the clipboard when you click "copy link"
-// @version 1.0.2
+// @version 1.0.3
 // @author Favna
 // @copyright 2018, Favna (https://favna.xyz)
 // @license GPL-3.0+; http://www.gnu.org/licenses/gpl-3.0.txt
@@ -73,8 +73,6 @@ function checkElement(selector) {
 function addlistener() {
     checkElement("[data-action='reference-to']")
         .then((element) => {
-            console.log("wow");
-            console.info(element);
             if (element) {
                 const twiID = $("[data-action='reference-to']").parent().parent().parent().parent().prev().attr('data-chirp-id'),
                     twiHandle = $("[data-action='reference-to']").parent().parent().parent().parent().parent().parent().parent().prev().prev().children().attr('href');
